@@ -70,7 +70,6 @@ Python is used as the core programming language for the project. Machine learnin
 ```bash
 air_quality_proto/
 │──aqi_data.csv
-│
 ├── model.py
 ├── app.py
 ├── requirements.txt
