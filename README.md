@@ -67,6 +67,7 @@ Python is used as the core programming language for the project. Machine learnin
 ---
 
 ## 📁 Project Structure
+```bash
 air_quality_proto/
 │
 ├── data/
@@ -76,7 +77,7 @@ air_quality_proto/
 ├── app.py
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## ▶️ How to Run the Project
