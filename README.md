@@ -69,9 +69,7 @@ Python is used as the core programming language for the project. Machine learnin
 ## 📁 Project Structure
 ```bash
 air_quality_proto/
-│
-├── data/
-│ └── aqi_data.csv
+│──aqi_data.csv
 │
 ├── model.py
 ├── app.py
@@ -84,4 +82,5 @@ air_quality_proto/
 1. Install required libraries:
 ```bash
 pip install streamlit pandas scikit-learn
-streamlit run app.py
+python -m streamlit run app.py
+```
