@@ -83,5 +83,8 @@ air_quality_proto/
 1. Install required libraries:
 ```py
 pip install streamlit pandas scikit-learn
+```
+2. Run the application:
+```bash
 python -m streamlit run app.py
 ```
