@@ -47,6 +47,7 @@ The proposed solution automatically retrieves the most recent available air poll
 6. AQI category and **health advisory** are displayed
 
 ### Workflow Diagram
+```bash
 City Selection
 ↓
 Fetch Latest City Data
@@ -58,6 +59,7 @@ Linear Regression Model
 AQI Prediction
 ↓
 AQI Category & Health Advisory
+```
 
 ---
 
@@ -79,7 +81,7 @@ air_quality_proto/
 
 ## ▶️ How to Run the Project
 1. Install required libraries:
-```bash
+```py
 pip install streamlit pandas scikit-learn
 python -m streamlit run app.py
 ```
