@@ -74,7 +74,6 @@ air_quality_proto/
 │──aqi_data.csv
 ├── model.py
 ├── app.py
-├── requirements.txt
 └── README.md
 ```
 ---
