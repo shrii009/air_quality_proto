@@ -47,3 +47,40 @@ The proposed solution automatically retrieves the most recent available air poll
 6. AQI category and **health advisory** are displayed
 
 ### Workflow Diagram
+City Selection
+↓
+Fetch Latest City Data
+↓
+Pollutant Feature Extraction
+↓
+Linear Regression Model
+↓
+AQI Prediction
+↓
+AQI Category & Health Advisory
+
+---
+
+## 🛠️ Technologies Used
+Python is used as the core programming language for the project. Machine learning is implemented using the Scikit-learn library, where a Linear Regression model is used for AQI prediction. Pandas is used for loading and processing the air quality dataset in CSV format. Streamlit is used to build a simple and interactive web-based user interface. The project uses a public air quality dataset and runs completely as a software-only solution.
+
+---
+
+## 📁 Project Structure
+air_quality_proto/
+│
+├── data/
+│ └── aqi_data.csv
+│
+├── model.py
+├── app.py
+├── requirements.txt
+└── README.md
+
+---
+
+## ▶️ How to Run the Project
+1. Install required libraries:
+```bash
+pip install streamlit pandas scikit-learn
+streamlit run app.py
